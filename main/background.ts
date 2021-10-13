@@ -3,8 +3,6 @@ import serve from "electron-serve";
 import Store from "electron-store";
 import { createWindow } from "./helpers";
 
-import "./helpers/ipc";
-
 const store = new Store();
 const isProd: boolean = process.env.NODE_ENV === "production";
 

@@ -7,7 +7,7 @@ import "css-reset-and-normalize/css/reset-and-normalize.min.css";
 
 import "@styles/globals.sass";
 
-const TreelineExplorer = ({ Component, pageProps }: never): JSX.Element => {
+const MyApp = ({ Component, pageProps }: never): JSX.Element => {
   return (
     <RecoilRoot>
       {/* eslint-disable-next-line @typescript-eslint/ban-ts-comment */}
@@ -17,4 +17,4 @@ const TreelineExplorer = ({ Component, pageProps }: never): JSX.Element => {
   );
 };
 
-export default TreelineExplorer;
+export default MyApp;

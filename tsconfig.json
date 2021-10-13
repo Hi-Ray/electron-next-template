@@ -25,7 +25,7 @@
       "@components/*": ["renderer/components/*"],
       "@layouts/*": ["renderer/layouts/*"],
       "@state/*": ["renderer/state/*"],
-      "@styled/*": ["renderer/styles/*"],
+      "@styles/*": ["renderer/styles/*"],
       "@renderer": ["renderer/*"],
       "@helpers/*": ["main/helpers/*"],
       "@main/*": ["main/*"]
